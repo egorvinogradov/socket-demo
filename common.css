@@ -1,0 +1,21 @@
+body {
+    font: 14px/18px Arial, sans-serif;
+    padding: 50px;
+    margin: 0;
+}
+
+.results {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.hotel {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 15px;
+}
+
+.hotel-price {
+    float: right;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+{
+    "coordinates": [
+        {
+            "name": "Demo 1",
+            "price": "2455"
+        },
+        {
+            "name": "Demo 2",
+            "price": "5774"
+        },
+        {
+            "name": "Demo 3",
+            "price": "3465"
+        }
+    ]
+}
