@@ -9,6 +9,11 @@ body {
     margin: 0 auto;
 }
 
+.bar {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
 .hotel {
     margin-bottom: 20px;
     border: 1px solid rgba(0,0,0,.2);

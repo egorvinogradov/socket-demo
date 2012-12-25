@@ -10,15 +10,21 @@
 </head>
 <body>
     <div class="results">
-        Demo
+        <div class="bar">
+            Demo
+            <button id="connect">Connect</button>
+        </div>
         <div class="hotels"></div>
     </div>
+
+
+    <!-- templates -->
+
     <script id="hotel-template" type="application/template">
         <div class="hotel" data-id="<%= id %>">
             <span class="hotel-name"><%= name %></span>
             <span class="hotel-price"><%= price %></span>            
         </div>
-
     </script>
 </body>
 </html>

@@ -1,13 +1,13 @@
 [{
     "name": "Qwewrth",
-    "price": "2355",
+    "price": 2355,
     "id": 1
 }, {
     "name": "Yutjtrgf",
-    "price": "4667",
+    "price": 4667,
     "id": 2
 }, {
     "name": "Zzfhtyjj",
-    "price": "3465",
+    "price": 3465,
     "id": 3
 }]

@@ -15,8 +15,8 @@ function initialize(){
 };
 
 function serveHTTP(request, response){
-    response.writeHead(200);
-    response.end('Websocket only');
+    response.writeHead(403);
+    response.end('Websockets only');
 };
 
 function serveSockets(socket){
@@ -27,9 +27,9 @@ function serveSockets(socket){
 
 function getHotels(callback){
     // TODO: get from redis instead of fs
-    fs.readFile('hotels.json', function(error, data){
+    fs.readFile('data/hotels.json', 'utf8', function(error, data){
         if ( !error ) {
-            callback(data);
+            callback(JSON.parse(data));
         }
     });
 };
